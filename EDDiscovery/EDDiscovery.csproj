@@ -301,6 +301,12 @@
     <Compile Include="UserControls\ExtPanel\UserControlExtPanel.Designer.cs">
       <DependentUpon>UserControlExtPanel.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\Overlays\UserControlStarTracker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Overlays\UserControlStarTracker.Designer.cs">
+      <DependentUpon>UserControlStarTracker.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\Overlays\UserControlMiningOverlay.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -900,6 +906,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\History\UserControlTravelGrid.resx">
       <DependentUpon>UserControlTravelGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Overlays\UserControlStarTracker.resx">
+      <DependentUpon>UserControlStarTracker.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\Overlays\UserControlCompass.resx">
       <DependentUpon>UserControlCompass.cs</DependentUpon>

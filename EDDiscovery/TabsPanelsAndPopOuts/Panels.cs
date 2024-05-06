@@ -87,6 +87,7 @@ namespace EDDiscovery
             Discoveries = 57,
             Carrier=58,
             Resources=59,
+            StarTracker=60,
             // ****** ADD More here DO NOT RENUMBER *****
         };
 
@@ -166,6 +167,7 @@ namespace EDDiscovery
             { new PanelInfo( PanelIDs.Compass, typeof(UserControlCompass), "Compass", "Compass", "Compass overlay to show bearing to planetary coordinates") },
             { new PanelInfo( PanelIDs.MissionOverlay, typeof(UserControlMissionOverlay), "Mission Overlay", "MissionOV", "Mission List overlay") },
             { new PanelInfo( PanelIDs.MiningOverlay, typeof(UserControlMiningOverlay), "Mining Overlay", "MiningOV", "Mining overlay") },
+            { new PanelInfo( PanelIDs.StarTracker, typeof(UserControlStarTracker), "Star Tracker", "Stracker", "Overlay to track altitude and heading of star") },
 
             { new PanelInfo( "Settings") },
             { new PanelInfo( PanelIDs.Settings, typeof(UserControlSettings), "Settings", "SettingsPanel", "Settings for ED Discovery ") },
